@@ -25,8 +25,6 @@
     </div>
 	</div>
 
-
-  <br>
   <div class="row mt-3">
     <div class="col-md-6">
       <form action="" method="post">
