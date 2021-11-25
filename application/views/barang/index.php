@@ -14,23 +14,24 @@
 
   <?php if (empty($barang)) : ?>
     <div class="alert alert-danger" role="alert">
-      Data Barang Ditak ditemukan...
+      Data Barang Tidak ditemukan...
     </div>
   <?php endif; ?>
 
   <br>
-  <div class="row-mt-3">
-    <div class="colmd-6">
-      <a href="http://localhost/invetaris/Barang/tambah/" class="btn btn-primary">Tambah Data Barang</a>
+  <div class="row-mt-2">
+    <div class="colmd-4">
+      <a href="http://localhost/inventaris/Barang/tambah/" class="btn btn-primary">Tambah Data Barang</a>
     </div>
+	</div>
 
 
   <br>
-  <div class="row-mt-3">
+  <div class="row mt-3">
     <div class="col-md-6">
       <form action="" method="post">
         <div class="input-group">
-          <input type="text" class="formcontrol" placeholder="Cari Data Barang..." name="keyword">
+          <input type="text" class="form-control" placeholder="Cari Data Barang..." name="keyword">
           <button class="btn btn-primary" type="submit">Cari</button>
         </div>
       </form>
