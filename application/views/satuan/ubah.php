@@ -9,8 +9,8 @@
             <form action="" method="post">
                 <input type="hidden" name="id_satuan" id="id_satuan" value="<?= $satuan['id_satuan']; ?>">
                 <div class="mb-3">
-                    <label for="nama_satuan" class="formlabel">Nama Satuan</label>
-                    <input type="text" class="formcontrol" name="nama_satuan" id="nama_satuan" value="<?= $satuan['nama_satuan']; ?>">
+                    <label for="nama_satuan" class="form-label">Nama Satuan</label>
+                    <input type="text" class="form-control" name="nama_satuan" id="nama_satuan" value="<?= $satuan['nama_satuan']; ?>">
                 </div>
                 <button name="ubah" type="submit" class="btn btn-primary">Ubah Data</button>
             </form>
