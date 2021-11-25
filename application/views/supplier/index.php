@@ -19,18 +19,17 @@
   <?php endif; ?>
 
   <br>
-  <div class="row-mt-3">
-    <div class="colmd-6">
-      <a href="http://localhost/invetaris/Supplier/tambah/" class="btn btn-primary">Tambah Data Supplier</a>
+  <div class="row-mt-2">
+    <div class="colmd-4">
+      <a href="http://localhost/inventaris/Supplier/tambah/" class="btn btn-primary">Tambah Data Supplier</a>
     </div>
+	</div>
 
-
-  <br>
-  <div class="row-mt-3">
+  <div class="row mt-3">
     <div class="col-md-6">
       <form action="" method="post">
         <div class="input-group">
-          <input type="text" class="formcontrol" placeholder="Cari Data Supplier..." name="keyword">
+          <input type="text" class="form-control" placeholder="Cari Data Supplier..." name="keyword">
           <button class="btn btn-primary" type="submit">Cari</button>
         </div>
       </form>
